@@ -1,0 +1,44 @@
+name: Verify Watch Club V2
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+
+  verify:
+
+    name: Verify Watch Club V2
+
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 5
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check JavaScript
+        run: |
+          node --check js/products.js
+          node --check js/app.js
+
+      - name: Verify website structure
+        run: |
+          node tests/verify-site.js
