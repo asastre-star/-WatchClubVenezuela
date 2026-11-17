@@ -1,0 +1,26 @@
+{
+  "expedition-acadia-verde": [
+    "03 (10) frontal completo",
+    "03 (13) close-up dial",
+    "03 (11) cuerpo completo",
+    "03 (12) vista posterior",
+    "03 (14) hebilla y tejido"
+  ],
+  "expedition-negro-marron": [
+    "03 (5) tres cuartos principal",
+    "03 (4) frontal/tres cuartos",
+    "03 (6) tres cuartos alterna",
+    "03 (1) frontal sobre soporte"
+  ],
+  "expedition-metalico-azul": [
+    "03 (15) frontal sobre soporte",
+    "03 (18) puesto en muñeca",
+    "03 (16) posterior",
+    "03 (17) hebilla y tejido"
+  ],
+  "classic-easy-reader": [
+    "03 (24) frontal dial negro/acero",
+    "03 (25) tres cuartos",
+    "03 (26) close-up dial y brazalete"
+  ]
+}

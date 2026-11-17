@@ -1,3 +1,3 @@
-# Watch Club Venezuela V2
+# Watch Club Venezuela V2.1
 
-Sitio estático premium para GitHub Pages.
+Paleta oficial, catálogo definitivo, fotografías reales y GitHub Pages.
